@@ -1,0 +1,51 @@
+﻿生成启动时间为 2011/11/27 15:32:15。
+     1>项目“D:\Documents\Tencent Files\275273236\FileRecv\BMPToJPEG\BMPToJPEG\BMPToJPEG.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug\BMPToJPEG.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         F:\Visual Studio2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BMP.CPP DCT.CPP Encode.cpp HuffEncode.cpp IO.CPP JPEG.CPP
+         JPEG.CPP
+         IO.CPP
+     1>d:\documents\tencent files\275273236\filerecv\bmptojpeg\bmptojpeg\io.cpp(8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\visual studio2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+         HuffEncode.cpp
+         Encode.cpp
+         DCT.CPP
+         BMP.CPP
+     1>d:\documents\tencent files\275273236\filerecv\bmptojpeg\bmptojpeg\bmp.cpp(9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\visual studio2010\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\documents\tencent files\275273236\filerecv\bmptojpeg\bmptojpeg\bmp.cpp(39): warning C4244: “=”: 从“DWORD”转换到“WORD”，可能丢失数据
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\BMPToJPEG.exe.embed.manifest.res" .\Debug\BMPToJPEG_manifest.rc 
+       Link:
+         F:\Visual Studio2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\BMPToJPEG.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\BMPToJPEG.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Documents\Tencent Files\275273236\FileRecv\BMPToJPEG\BMPToJPEG\Debug\BMPToJPEG.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\BMPToJPEG.lib" /MACHINE:X86 .\Debug\BMPToJPEG.exe.embed.manifest.res
+         .\Debug\BMP.obj
+         .\Debug\DCT.obj
+         .\Debug\Encode.obj
+         .\Debug\HuffEncode.obj
+         .\Debug\IO.obj
+         .\Debug\JPEG.obj
+         .\Debug\Main.obj
+     1>LINK : warning LNK4076: 增量状态文件“.\Debug\BMPToJPEG.ilk”无效(将删除)；正以非增量方式链接
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\BMPToJPEG.exe.embed.manifest" /manifest .\Debug\BMPToJPEG.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\BMPToJPEG.exe.embed.manifest.res" .\Debug\BMPToJPEG_manifest.rc 
+       LinkEmbedManifest:
+         F:\Visual Studio2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\BMPToJPEG.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\BMPToJPEG.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Documents\Tencent Files\275273236\FileRecv\BMPToJPEG\BMPToJPEG\Debug\BMPToJPEG.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\BMPToJPEG.lib" /MACHINE:X86 .\Debug\BMPToJPEG.exe.embed.manifest.res
+         .\Debug\BMP.obj
+         .\Debug\DCT.obj
+         .\Debug\Encode.obj
+         .\Debug\HuffEncode.obj
+         .\Debug\IO.obj
+         .\Debug\JPEG.obj
+         .\Debug\Main.obj
+         BMPToJPEG.vcxproj -> D:\Documents\Tencent Files\275273236\FileRecv\BMPToJPEG\BMPToJPEG\.\Debug\BMPToJPEG.exe
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\BMPToJPEG.unsuccessfulbuild”。
+         正在对“.\Debug\BMPToJPEG.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Documents\Tencent Files\275273236\FileRecv\BMPToJPEG\BMPToJPEG\BMPToJPEG.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.52
